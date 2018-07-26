@@ -9,5 +9,12 @@
 #
 # system:
 #   command: show version
-#  parser: show_version.yaml
+#   parser: show_version.yaml
 #
+hostname:
+  command: show hostname
+  parser: cli/show_hostname.yaml
+
+system:
+  command: show version
+  parser: cli/show_version.yaml
